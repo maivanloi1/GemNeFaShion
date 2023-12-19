@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header header-cart">
+            <div class="header-left">
+                <ul class="header-left__nav-list">
+                    <li class="header-left__nav-item"><a href="./index.html">Trang chủ</a></li>
+                    <li class="header-left__nav-item"><a href="./product.html">Sản phẩm</a></li>
+                    <li class="header-left__nav-item"><a href="./sale.html">Sale</a></li>
+                </ul>
+            </div>
+            <div class="header-center">
+                <a href="#"><img src="./assets/img/logo.png" alt="" class="header-center__logo"></a>
+            </div>
+            <div class="header-right header-right__cart">
+                <ul class="header-right__nav-list">
+                    <li class="header-right__nav-item header-right__nav-item--checked"><a href="./cart.html">giỏ hàng</a></li>
+                    <button class="btn-login"><a href="./login.html">đăng nhập</a></button>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Container -->
+        <div class="container container-cart">
+            <div class="cart">
+                <div class="grid">
+                    <ul class="cart-list">
+                        <li class="cart-item">
+                            <div class="cart-item__info">
+                                <input type="checkbox" class="cart-item__checked" checked>
+                                <img src="./assets/img/sp9.jpg" alt="" class="cart-item__img">
+                                <div class="cart-item__des">
+                                    <h5 class="cart-item__name">Váy Đầm</h5>
+                                    <p class="cart-item__price">500.000đ</p>
+                                </div>
+                                <div class="cart-item__quantity">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                    <input type="text" class="cart-item__plus" value="1">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <div class="cart-item__info">
+                                <input type="checkbox" class="cart-item__checked">
+                                <img src="./assets/img/sp7.jpg" alt="" class="cart-item__img">
+                                <div class="cart-item__des">
+                                    <h5 class="cart-item__name">Chân Váy</h5>
+                                    <p class="cart-item__price">400.000đ</p>
+                                </div>
+                                <div class="cart-item__quantity">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                    <input type="text" class="cart-item__plus" value="3">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <div class="cart-item__info">
+                                <input type="checkbox" class="cart-item__checked" checked>
+                                <img src="./assets/img/sp4.jpg" alt="" class="cart-item__img">
+                                <div class="cart-item__des">
+                                    <h5 class="cart-item__name">Váy Yếm</h5>
+                                    <p class="cart-item__price">800.000đ</p>
+                                </div>
+                                <div class="cart-item__quantity">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                    <input type="text" class="cart-item__plus" value="2">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <div class="cart-item__info">
+                                <input type="checkbox" class="cart-item__checked">
+                                <img src="./assets/img/sp4.jpg" alt="" class="cart-item__img">
+                                <div class="cart-item__des">
+                                    <h5 class="cart-item__name">Váy Đầm</h5>
+                                    <p class="cart-item__price">500.000đ</p>
+                                </div>
+                                <div class="cart-item__quantity">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                    <input type="text" class="cart-item__plus" value="1">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <div class="cart-item__info">
+                                <input type="checkbox" class="cart-item__checked">
+                                <img src="./assets/img/sp4.jpg" alt="" class="cart-item__img">
+                                <div class="cart-item__des">
+                                    <h5 class="cart-item__name">Váy Đầm</h5>
+                                    <p class="cart-item__price">500.000đ</p>
+                                </div>
+                                <div class="cart-item__quantity">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                    <input type="text" class="cart-item__plus" value="1">
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <i class="fa-solid fa-plus add-product"></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Pay -->
+        <div class="pay-footer">
+            <div class="grid">
+                <div class="bill">
+                    <div class="total">
+                        <p class="label-total">Tổng tiền</p>
+                        <p class="price-total">2.100.000đ</p>
+                    </div>
+                    <div class="pay">
+                        <button class="btn-pay">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
